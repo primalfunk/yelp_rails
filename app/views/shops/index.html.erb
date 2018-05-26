@@ -1,0 +1,15 @@
+<div class="toptitle">
+<h1>Main Restaurant List</h1><p class="createnew"><%= link_to 'Create New', new_shop_path %></p>
+</div>
+<div class="biglist">
+<% @shops.each do |shop| %>
+  <div class="listitem">
+  <h3 class="shopname"><%= shop.name %></h3>
+  <h3><%= link_to 'Show', shop_path(shop) %></h3>
+  <h3><%= link_to 'Edit', edit_shop_path(shop) %></h3>
+  <h3><%= link_to 'Delete', shop, method: :delete %></h3>
+  </div>
+<% end %>
+</div>
+
+

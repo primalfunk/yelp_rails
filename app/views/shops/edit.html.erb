@@ -1,0 +1,13 @@
+<h1>Edit</h2>
+<%= form_for @shop do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :desc %>
+  <%= f.text_field :desc %>
+
+  <%= f.label :ranking %>
+  <%= f.text_area :ranking %>
+
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,53 @@
+// Place all the styles related to the shops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: 'Shadows Into Light', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.biglist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Unica One', serif;
+}
+
+.listitem {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  background-color: lightgray;
+}
+
+.shopname {
+  font-size: 22px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: lightseagreen;
+  font-family: 'Unica One', sans-serif;
+}
+
+.toptitle {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: lightgoldenrodyellow;
+  p {
+    font-family: 'Shadows Into Light', sans-serif;
+    align-self: center;
+  }
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  font-family: 'Unica One', sans-serif;
+  width: 50%;
+}

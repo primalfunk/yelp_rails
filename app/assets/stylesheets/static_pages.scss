@@ -1,0 +1,23 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.about {
+  display: flex;
+  font-family: 'Unica One', serif;
+  width: 50%;
+  padding-left: 25%;
+  text-align: center;
+  align-content: center;
+}
+
+.home {
+  display: flex;
+  font-family: "Shadows Into Light", cursive;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.aside {
+  font-family: "Unica One", serif;
+  align-self: center;
+}
